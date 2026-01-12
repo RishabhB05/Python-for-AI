@@ -1,0 +1,59 @@
+
+Why you need Git
+As an AI engineer, you’ll use Git to:
+Save your progress: Never lose code again
+Try experiments: Test ideas without breaking working code
+Share projects: Show your work to employers or collaborators
+Use AI tools: Many AI projects are shared on GitHub
+
+
+
+
+
+Version control:- it helps in reverse the changes in code of by changing the version
+
+Example:------>
+# Monday: Your code works
+def calculate_price(amount):
+    return amount * 1.20  # 20% markup
+
+# Tuesday: Boss wants 25% markup
+def calculate_price(amount):
+    return amount * 1.25  # Changed from 20% to 25%
+
+# Wednesday: "Actually, can we go back to 20%?"
+# With Git: Easy! Just go back to Monday's version
+# Without Git: Hope you still have that file somewhere...
+
+
+Key concepts (all you need):----------->
+Repository (repo): A project tracked by Git
+Your python-for-ai folder can be a repository
+Staging: Choosing which changes to save
+Like selecting items to put in a box before shipping
+Commit: A saved snapshot of your code
+Like saving in a video game - you can always go back
+Push: Upload your commits to GitHub
+Backs up your code online
+Pull: Download changes from GitHub
+Get updates when working with others
+Clone: Copy a project from GitHub
+How you get AI projects to try
+
+
+
+
+
+
+GIT---------->
+# 0. First time only - initialize Git in your project
+git init
+
+# 1. Save your changes locally
+git add .
+git commit -m "Add price calculation function"
+
+# 2. Upload to GitHub (after connecting to GitHub - see next pages)
+git push
+
+# That's it! Your code is saved and backed up

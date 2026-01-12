@@ -1,0 +1,5 @@
+.venz
+env/
+__pycache__/
+.Python
+lib/
